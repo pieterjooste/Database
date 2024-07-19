@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5A181912C47BECD00D2DE7A /* Wine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A181902C47BECD00D2DE7A /* Wine.swift */; };
+		C5A181932C48FB6E00D2DE7A /* EditWineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A181922C48FB6E00D2DE7A /* EditWineView.swift */; };
+		C5A181952C4931B300D2DE7A /* WineListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A181942C4931B300D2DE7A /* WineListingView.swift */; };
 		C5B4DCA92C452EA1004C0BE5 /* DatabaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B4DCA82C452EA1004C0BE5 /* DatabaseApp.swift */; };
 		C5B4DCAB2C452EA1004C0BE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B4DCAA2C452EA1004C0BE5 /* ContentView.swift */; };
 		C5B4DCAD2C452EA3004C0BE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B4DCAC2C452EA3004C0BE5 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C5A181902C47BECD00D2DE7A /* Wine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wine.swift; sourceTree = "<group>"; };
+		C5A181922C48FB6E00D2DE7A /* EditWineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWineView.swift; sourceTree = "<group>"; };
+		C5A181942C4931B300D2DE7A /* WineListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineListingView.swift; sourceTree = "<group>"; };
 		C5B4DCA52C452EA1004C0BE5 /* Database.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Database.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5B4DCA82C452EA1004C0BE5 /* DatabaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseApp.swift; sourceTree = "<group>"; };
 		C5B4DCAA2C452EA1004C0BE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +59,9 @@
 			children = (
 				C5B4DCA82C452EA1004C0BE5 /* DatabaseApp.swift */,
 				C5B4DCAA2C452EA1004C0BE5 /* ContentView.swift */,
+				C5A181942C4931B300D2DE7A /* WineListingView.swift */,
+				C5A181922C48FB6E00D2DE7A /* EditWineView.swift */,
+				C5A181902C47BECD00D2DE7A /* Wine.swift */,
 				C5B4DCAC2C452EA3004C0BE5 /* Assets.xcassets */,
 				C5B4DCAE2C452EA3004C0BE5 /* Preview Content */,
 			);
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5B4DCAB2C452EA1004C0BE5 /* ContentView.swift in Sources */,
+				C5A181932C48FB6E00D2DE7A /* EditWineView.swift in Sources */,
 				C5B4DCA92C452EA1004C0BE5 /* DatabaseApp.swift in Sources */,
+				C5A181952C4931B300D2DE7A /* WineListingView.swift in Sources */,
+				C5A181912C47BECD00D2DE7A /* Wine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
